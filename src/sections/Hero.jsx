@@ -7,7 +7,7 @@ function Hero() {
       id="home"
       className="
         relative z-10
-        min-h-[calc(100vh-6rem)]
+        min-h-[75vh] md:min-h-[80vh]
         flex items-center
         px-6
         scroll-mt-28
@@ -86,8 +86,8 @@ function Hero() {
           <div
             className="
               relative
-              w-64 h-80
-              md:w-80 md:h-105
+              w-64 h-78
+              md:w-80 md:h-100
               rounded-3xl
               overflow-hidden
               border border-white/20

@@ -49,7 +49,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills" className="relative z-10 px-6 py-24">
+    <section id="skills" className="relative z-10 px-6 py-16 scroll-mt-28">
       <div className="mx-auto max-w-6xl">
         
         {/* Section Header */}

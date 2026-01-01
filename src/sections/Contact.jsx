@@ -2,7 +2,7 @@ import { Mail, Linkedin, Twitter } from "lucide-react";
 
 function Contact() {
   return (
-    <section id="contact" className="relative z-10 px-6 py-24">
+    <section id="contact" className="relative z-10 px-6 py-16 scroll-mt-28">
       <div className="mx-auto max-w-4xl text-center">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold">Let’s Work Together</h2>

@@ -29,7 +29,7 @@ const experiences = [
 
 function Experience() {
   return (
-    <section id="experience" className="relative z-10 px-6 py-24">
+    <section id="experience" className="relative z-10 px-6 py-16 scroll-mt-28">
       <div className="mx-auto max-w-4xl">
 
         {/* Section Header */}

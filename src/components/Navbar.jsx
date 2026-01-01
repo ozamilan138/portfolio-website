@@ -75,6 +75,11 @@ function Navbar() {
             </a>
           </li>
           <li>
+            <a href="#projects" className="hover:text-white cursor-pointer">
+              Projects
+            </a>
+          </li>
+          <li>
             <a href="#experience" className="hover:text-white cursor-pointer">
               Experience
             </a>
@@ -133,6 +138,13 @@ function Navbar() {
             className="hover:text-white"
           >
             Skills
+          </a>
+          <a
+            href="#projects"
+            onClick={() => setIsOpen(false)}
+            className="hover:text-white"
+          >
+            Projects
           </a>
           <a
             href="#experience"
