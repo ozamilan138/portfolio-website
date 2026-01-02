@@ -53,31 +53,38 @@ function Hero() {
 
           {/* CTA */}
           <div className="flex gap-4 pt-4">
-            <button
-              className="
+            <a href="#projects">
+              {" "}
+              <button
+                className="
                 px-6 py-3
                 rounded-full
                 bg-white text-black
                 font-medium
                 hover:bg-gray-200
                 transition
+                cursor-pointer
               "
-            >
-              View Projects
-            </button>
+              >
+                View Projects
+              </button>
+            </a>
 
-            <button
-              className="
+            <a href="#contact">
+              <button
+                className="
                 px-6 py-3
                 rounded-full
                 border border-white/20
                 text-white
                 hover:bg-white/10
                 transition
+                cursor-pointer
               "
-            >
-              Contact Me
-            </button>
+              >
+                Contact Me
+              </button>
+            </a>
           </div>
         </div>
 
